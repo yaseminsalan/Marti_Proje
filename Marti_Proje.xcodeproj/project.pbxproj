@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B699E5ED2488076400FF0114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E5EC2488076400FF0114 /* AppDelegate.swift */; };
+		B699E5EF2488076400FF0114 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E5EE2488076400FF0114 /* SceneDelegate.swift */; };
+		B699E5F12488076400FF0114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E5F02488076400FF0114 /* ViewController.swift */; };
+		B699E5F42488076400FF0114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B699E5F22488076400FF0114 /* Main.storyboard */; };
+		B699E5F62488076600FF0114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B699E5F52488076600FF0114 /* Assets.xcassets */; };
+		B699E5F92488076600FF0114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B699E5F72488076600FF0114 /* LaunchScreen.storyboard */; };
+		B699E6042488076600FF0114 /* Marti_ProjeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E6032488076600FF0114 /* Marti_ProjeTests.swift */; };
+		B699E60F2488076600FF0114 /* Marti_ProjeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E60E2488076600FF0114 /* Marti_ProjeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B699E6002488076600FF0114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B699E5E12488076400FF0114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B699E5E82488076400FF0114;
+			remoteInfo = Marti_Proje;
+		};
+		B699E60B2488076600FF0114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B699E5E12488076400FF0114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B699E5E82488076400FF0114;
+			remoteInfo = Marti_Proje;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B699E5E92488076400FF0114 /* Marti_Proje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marti_Proje.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B699E5EC2488076400FF0114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B699E5EE2488076400FF0114 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B699E5F02488076400FF0114 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B699E5F32488076400FF0114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B699E5F52488076600FF0114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B699E5F82488076600FF0114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B699E5FA2488076600FF0114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B699E5FF2488076600FF0114 /* Marti_ProjeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marti_ProjeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B699E6032488076600FF0114 /* Marti_ProjeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marti_ProjeTests.swift; sourceTree = "<group>"; };
+		B699E6052488076600FF0114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B699E60A2488076600FF0114 /* Marti_ProjeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marti_ProjeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B699E60E2488076600FF0114 /* Marti_ProjeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marti_ProjeUITests.swift; sourceTree = "<group>"; };
+		B699E6102488076600FF0114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B699E5E62488076400FF0114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B699E5FC2488076600FF0114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B699E6072488076600FF0114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B699E5E02488076400FF0114 = {
+			isa = PBXGroup;
+			children = (
+				B699E5EB2488076400FF0114 /* Marti_Proje */,
+				B699E6022488076600FF0114 /* Marti_ProjeTests */,
+				B699E60D2488076600FF0114 /* Marti_ProjeUITests */,
+				B699E5EA2488076400FF0114 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B699E5EA2488076400FF0114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B699E5E92488076400FF0114 /* Marti_Proje.app */,
+				B699E5FF2488076600FF0114 /* Marti_ProjeTests.xctest */,
+				B699E60A2488076600FF0114 /* Marti_ProjeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B699E5EB2488076400FF0114 /* Marti_Proje */ = {
+			isa = PBXGroup;
+			children = (
+				B699E5EC2488076400FF0114 /* AppDelegate.swift */,
+				B699E5EE2488076400FF0114 /* SceneDelegate.swift */,
+				B699E5F02488076400FF0114 /* ViewController.swift */,
+				B699E5F22488076400FF0114 /* Main.storyboard */,
+				B699E5F52488076600FF0114 /* Assets.xcassets */,
+				B699E5F72488076600FF0114 /* LaunchScreen.storyboard */,
+				B699E5FA2488076600FF0114 /* Info.plist */,
+			);
+			path = Marti_Proje;
+			sourceTree = "<group>";
+		};
+		B699E6022488076600FF0114 /* Marti_ProjeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B699E6032488076600FF0114 /* Marti_ProjeTests.swift */,
+				B699E6052488076600FF0114 /* Info.plist */,
+			);
+			path = Marti_ProjeTests;
+			sourceTree = "<group>";
+		};
+		B699E60D2488076600FF0114 /* Marti_ProjeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B699E60E2488076600FF0114 /* Marti_ProjeUITests.swift */,
+				B699E6102488076600FF0114 /* Info.plist */,
+			);
+			path = Marti_ProjeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B699E5E82488076400FF0114 /* Marti_Proje */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B699E6132488076600FF0114 /* Build configuration list for PBXNativeTarget "Marti_Proje" */;
+			buildPhases = (
+				B699E5E52488076400FF0114 /* Sources */,
+				B699E5E62488076400FF0114 /* Frameworks */,
+				B699E5E72488076400FF0114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marti_Proje;
+			productName = Marti_Proje;
+			productReference = B699E5E92488076400FF0114 /* Marti_Proje.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B699E5FE2488076600FF0114 /* Marti_ProjeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B699E6162488076600FF0114 /* Build configuration list for PBXNativeTarget "Marti_ProjeTests" */;
+			buildPhases = (
+				B699E5FB2488076600FF0114 /* Sources */,
+				B699E5FC2488076600FF0114 /* Frameworks */,
+				B699E5FD2488076600FF0114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B699E6012488076600FF0114 /* PBXTargetDependency */,
+			);
+			name = Marti_ProjeTests;
+			productName = Marti_ProjeTests;
+			productReference = B699E5FF2488076600FF0114 /* Marti_ProjeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B699E6092488076600FF0114 /* Marti_ProjeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B699E6192488076600FF0114 /* Build configuration list for PBXNativeTarget "Marti_ProjeUITests" */;
+			buildPhases = (
+				B699E6062488076600FF0114 /* Sources */,
+				B699E6072488076600FF0114 /* Frameworks */,
+				B699E6082488076600FF0114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B699E60C2488076600FF0114 /* PBXTargetDependency */,
+			);
+			name = Marti_ProjeUITests;
+			productName = Marti_ProjeUITests;
+			productReference = B699E60A2488076600FF0114 /* Marti_ProjeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B699E5E12488076400FF0114 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Yasemin salan";
+				TargetAttributes = {
+					B699E5E82488076400FF0114 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					B699E5FE2488076600FF0114 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B699E5E82488076400FF0114;
+					};
+					B699E6092488076600FF0114 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B699E5E82488076400FF0114;
+					};
+				};
+			};
+			buildConfigurationList = B699E5E42488076400FF0114 /* Build configuration list for PBXProject "Marti_Proje" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B699E5E02488076400FF0114;
+			productRefGroup = B699E5EA2488076400FF0114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B699E5E82488076400FF0114 /* Marti_Proje */,
+				B699E5FE2488076600FF0114 /* Marti_ProjeTests */,
+				B699E6092488076600FF0114 /* Marti_ProjeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B699E5E72488076400FF0114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B699E5F92488076600FF0114 /* LaunchScreen.storyboard in Resources */,
+				B699E5F62488076600FF0114 /* Assets.xcassets in Resources */,
+				B699E5F42488076400FF0114 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B699E5FD2488076600FF0114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B699E6082488076600FF0114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B699E5E52488076400FF0114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B699E5F12488076400FF0114 /* ViewController.swift in Sources */,
+				B699E5ED2488076400FF0114 /* AppDelegate.swift in Sources */,
+				B699E5EF2488076400FF0114 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B699E5FB2488076600FF0114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B699E6042488076600FF0114 /* Marti_ProjeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B699E6062488076600FF0114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B699E60F2488076600FF0114 /* Marti_ProjeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B699E6012488076600FF0114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B699E5E82488076400FF0114 /* Marti_Proje */;
+			targetProxy = B699E6002488076600FF0114 /* PBXContainerItemProxy */;
+		};
+		B699E60C2488076600FF0114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B699E5E82488076400FF0114 /* Marti_Proje */;
+			targetProxy = B699E60B2488076600FF0114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B699E5F22488076400FF0114 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B699E5F32488076400FF0114 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B699E5F72488076600FF0114 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B699E5F82488076600FF0114 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B699E6112488076600FF0114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B699E6122488076600FF0114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B699E6142488076600FF0114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H84WUS4V8F;
+				INFOPLIST_FILE = Marti_Proje/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yaseminsalan.Marti-Proje";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B699E6152488076600FF0114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H84WUS4V8F;
+				INFOPLIST_FILE = Marti_Proje/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yaseminsalan.Marti-Proje";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B699E6172488076600FF0114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H84WUS4V8F;
+				INFOPLIST_FILE = Marti_ProjeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yaseminsalan.Marti-ProjeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marti_Proje.app/Marti_Proje";
+			};
+			name = Debug;
+		};
+		B699E6182488076600FF0114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H84WUS4V8F;
+				INFOPLIST_FILE = Marti_ProjeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yaseminsalan.Marti-ProjeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marti_Proje.app/Marti_Proje";
+			};
+			name = Release;
+		};
+		B699E61A2488076600FF0114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H84WUS4V8F;
+				INFOPLIST_FILE = Marti_ProjeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yaseminsalan.Marti-ProjeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marti_Proje;
+			};
+			name = Debug;
+		};
+		B699E61B2488076600FF0114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H84WUS4V8F;
+				INFOPLIST_FILE = Marti_ProjeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yaseminsalan.Marti-ProjeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marti_Proje;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B699E5E42488076400FF0114 /* Build configuration list for PBXProject "Marti_Proje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B699E6112488076600FF0114 /* Debug */,
+				B699E6122488076600FF0114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B699E6132488076600FF0114 /* Build configuration list for PBXNativeTarget "Marti_Proje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B699E6142488076600FF0114 /* Debug */,
+				B699E6152488076600FF0114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B699E6162488076600FF0114 /* Build configuration list for PBXNativeTarget "Marti_ProjeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B699E6172488076600FF0114 /* Debug */,
+				B699E6182488076600FF0114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B699E6192488076600FF0114 /* Build configuration list for PBXNativeTarget "Marti_ProjeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B699E61A2488076600FF0114 /* Debug */,
+				B699E61B2488076600FF0114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B699E5E12488076400FF0114 /* Project object */;
+}
