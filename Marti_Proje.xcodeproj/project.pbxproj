@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DF27F3962B7CCF8F21EEE4A /* Pods_Marti_ProjeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2875C1966D70B3AC76F1F1 /* Pods_Marti_ProjeTests.framework */; };
+		3F99031975F275ED11B13124 /* Pods_Marti_Proje_Marti_ProjeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C344D150BF483E8847D5311A /* Pods_Marti_Proje_Marti_ProjeUITests.framework */; };
+		8BEAB7DAC2C8B2DF0F4ACD51 /* Pods_Marti_Proje.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A902C8769D94E1506D6AFD3B /* Pods_Marti_Proje.framework */; };
+		B668490E248931F8006D5862 /* GoogleMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B668490D248931F8006D5862 /* GoogleMapsViewController.swift */; };
 		B699E5ED2488076400FF0114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E5EC2488076400FF0114 /* AppDelegate.swift */; };
 		B699E5EF2488076400FF0114 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E5EE2488076400FF0114 /* SceneDelegate.swift */; };
 		B699E5F12488076400FF0114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E5F02488076400FF0114 /* ViewController.swift */; };
@@ -15,6 +19,8 @@
 		B699E5F92488076600FF0114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B699E5F72488076600FF0114 /* LaunchScreen.storyboard */; };
 		B699E6042488076600FF0114 /* Marti_ProjeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E6032488076600FF0114 /* Marti_ProjeTests.swift */; };
 		B699E60F2488076600FF0114 /* Marti_ProjeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E60E2488076600FF0114 /* Marti_ProjeUITests.swift */; };
+		B699E61D2488354100FF0114 /* HomaPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E61C2488354100FF0114 /* HomaPageTableViewCell.swift */; };
+		B699E62124883C1400FF0114 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E62024883C1400FF0114 /* SearchModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11442F6687B4B1EC872F3750 /* Pods-Marti_Proje-Marti_ProjeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marti_Proje-Marti_ProjeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Marti_Proje-Marti_ProjeUITests/Pods-Marti_Proje-Marti_ProjeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		18A2B7BF2415D13285EF8242 /* Pods-Marti_ProjeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marti_ProjeTests.debug.xcconfig"; path = "Target Support Files/Pods-Marti_ProjeTests/Pods-Marti_ProjeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3461C9E4EF100857E8ABD30B /* Pods-Marti_Proje.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marti_Proje.debug.xcconfig"; path = "Target Support Files/Pods-Marti_Proje/Pods-Marti_Proje.debug.xcconfig"; sourceTree = "<group>"; };
+		3C2875C1966D70B3AC76F1F1 /* Pods_Marti_ProjeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marti_ProjeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D11C584ED2A0D05D3B92588 /* Pods-Marti_Proje-Marti_ProjeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marti_Proje-Marti_ProjeUITests.release.xcconfig"; path = "Target Support Files/Pods-Marti_Proje-Marti_ProjeUITests/Pods-Marti_Proje-Marti_ProjeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83FE090A21B93AD935074376 /* Pods-Marti_ProjeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marti_ProjeTests.release.xcconfig"; path = "Target Support Files/Pods-Marti_ProjeTests/Pods-Marti_ProjeTests.release.xcconfig"; sourceTree = "<group>"; };
+		A902C8769D94E1506D6AFD3B /* Pods_Marti_Proje.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marti_Proje.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B668490D248931F8006D5862 /* GoogleMapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsViewController.swift; sourceTree = "<group>"; };
 		B699E5E92488076400FF0114 /* Marti_Proje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marti_Proje.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B699E5EC2488076400FF0114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B699E5EE2488076400FF0114 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,10 @@
 		B699E60A2488076600FF0114 /* Marti_ProjeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marti_ProjeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B699E60E2488076600FF0114 /* Marti_ProjeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marti_ProjeUITests.swift; sourceTree = "<group>"; };
 		B699E6102488076600FF0114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B699E61C2488354100FF0114 /* HomaPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomaPageTableViewCell.swift; sourceTree = "<group>"; };
+		B699E62024883C1400FF0114 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		B6B09B4B4934271DC8FAAB96 /* Pods-Marti_Proje.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marti_Proje.release.xcconfig"; path = "Target Support Files/Pods-Marti_Proje/Pods-Marti_Proje.release.xcconfig"; sourceTree = "<group>"; };
+		C344D150BF483E8847D5311A /* Pods_Marti_Proje_Marti_ProjeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marti_Proje_Marti_ProjeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BEAB7DAC2C8B2DF0F4ACD51 /* Pods_Marti_Proje.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF27F3962B7CCF8F21EEE4A /* Pods_Marti_ProjeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F99031975F275ED11B13124 /* Pods_Marti_Proje_Marti_ProjeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0407E458F36FBF6C3CC7C1CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A902C8769D94E1506D6AFD3B /* Pods_Marti_Proje.framework */,
+				C344D150BF483E8847D5311A /* Pods_Marti_Proje_Marti_ProjeUITests.framework */,
+				3C2875C1966D70B3AC76F1F1 /* Pods_Marti_ProjeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E0D58B64FC65FA0BBADE406 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3461C9E4EF100857E8ABD30B /* Pods-Marti_Proje.debug.xcconfig */,
+				B6B09B4B4934271DC8FAAB96 /* Pods-Marti_Proje.release.xcconfig */,
+				11442F6687B4B1EC872F3750 /* Pods-Marti_Proje-Marti_ProjeUITests.debug.xcconfig */,
+				7D11C584ED2A0D05D3B92588 /* Pods-Marti_Proje-Marti_ProjeUITests.release.xcconfig */,
+				18A2B7BF2415D13285EF8242 /* Pods-Marti_ProjeTests.debug.xcconfig */,
+				83FE090A21B93AD935074376 /* Pods-Marti_ProjeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B699E5E02488076400FF0114 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				B699E6022488076600FF0114 /* Marti_ProjeTests */,
 				B699E60D2488076600FF0114 /* Marti_ProjeUITests */,
 				B699E5EA2488076400FF0114 /* Products */,
+				6E0D58B64FC65FA0BBADE406 /* Pods */,
+				0407E458F36FBF6C3CC7C1CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +145,12 @@
 		B699E5EB2488076400FF0114 /* Marti_Proje */ = {
 			isa = PBXGroup;
 			children = (
-				B699E5EC2488076400FF0114 /* AppDelegate.swift */,
 				B699E5EE2488076400FF0114 /* SceneDelegate.swift */,
+				B699E5EC2488076400FF0114 /* AppDelegate.swift */,
 				B699E5F02488076400FF0114 /* ViewController.swift */,
+				B668490D248931F8006D5862 /* GoogleMapsViewController.swift */,
+				B699E62024883C1400FF0114 /* SearchModel.swift */,
+				B699E61C2488354100FF0114 /* HomaPageTableViewCell.swift */,
 				B699E5F22488076400FF0114 /* Main.storyboard */,
 				B699E5F52488076600FF0114 /* Assets.xcassets */,
 				B699E5F72488076600FF0114 /* LaunchScreen.storyboard */,
@@ -135,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B699E6132488076600FF0114 /* Build configuration list for PBXNativeTarget "Marti_Proje" */;
 			buildPhases = (
+				22D61071748DBA4E9794839A /* [CP] Check Pods Manifest.lock */,
 				B699E5E52488076400FF0114 /* Sources */,
 				B699E5E62488076400FF0114 /* Frameworks */,
 				B699E5E72488076400FF0114 /* Resources */,
+				605D844E1556B45F3E6E2943 /* [CP] Embed Pods Frameworks */,
+				E6A875B19360EE3367F98D18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B699E6162488076600FF0114 /* Build configuration list for PBXNativeTarget "Marti_ProjeTests" */;
 			buildPhases = (
+				E4BEA210A46F73692AA8A454 /* [CP] Check Pods Manifest.lock */,
 				B699E5FB2488076600FF0114 /* Sources */,
 				B699E5FC2488076600FF0114 /* Frameworks */,
 				B699E5FD2488076600FF0114 /* Resources */,
@@ -170,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B699E6192488076600FF0114 /* Build configuration list for PBXNativeTarget "Marti_ProjeUITests" */;
 			buildPhases = (
+				AF0C8B9FE7984A33455C4768 /* [CP] Check Pods Manifest.lock */,
 				B699E6062488076600FF0114 /* Sources */,
 				B699E6072488076600FF0114 /* Frameworks */,
 				B699E6082488076600FF0114 /* Resources */,
+				E4C4FD48557C430F38965253 /* [CP] Embed Pods Frameworks */,
+				EC22EE215576D700FBB194F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +310,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22D61071748DBA4E9794839A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marti_Proje-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		605D844E1556B45F3E6E2943 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marti_Proje/Pods-Marti_Proje-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marti_Proje/Pods-Marti_Proje-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marti_Proje/Pods-Marti_Proje-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0C8B9FE7984A33455C4768 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marti_Proje-Marti_ProjeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4BEA210A46F73692AA8A454 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marti_ProjeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4C4FD48557C430F38965253 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marti_Proje-Marti_ProjeUITests/Pods-Marti_Proje-Marti_ProjeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marti_Proje-Marti_ProjeUITests/Pods-Marti_Proje-Marti_ProjeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marti_Proje-Marti_ProjeUITests/Pods-Marti_Proje-Marti_ProjeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A875B19360EE3367F98D18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marti_Proje/Pods-Marti_Proje-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marti_Proje/Pods-Marti_Proje-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marti_Proje/Pods-Marti_Proje-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC22EE215576D700FBB194F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marti_Proje-Marti_ProjeUITests/Pods-Marti_Proje-Marti_ProjeUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marti_Proje-Marti_ProjeUITests/Pods-Marti_Proje-Marti_ProjeUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marti_Proje-Marti_ProjeUITests/Pods-Marti_Proje-Marti_ProjeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B699E5E52488076400FF0114 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,7 +454,10 @@
 			files = (
 				B699E5F12488076400FF0114 /* ViewController.swift in Sources */,
 				B699E5ED2488076400FF0114 /* AppDelegate.swift in Sources */,
+				B668490E248931F8006D5862 /* GoogleMapsViewController.swift in Sources */,
 				B699E5EF2488076400FF0114 /* SceneDelegate.swift in Sources */,
+				B699E62124883C1400FF0114 /* SearchModel.swift in Sources */,
+				B699E61D2488354100FF0114 /* HomaPageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +628,7 @@
 		};
 		B699E6142488076600FF0114 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3461C9E4EF100857E8ABD30B /* Pods-Marti_Proje.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +647,7 @@
 		};
 		B699E6152488076600FF0114 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B09B4B4934271DC8FAAB96 /* Pods-Marti_Proje.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +666,7 @@
 		};
 		B699E6172488076600FF0114 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A2B7BF2415D13285EF8242 /* Pods-Marti_ProjeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +689,7 @@
 		};
 		B699E6182488076600FF0114 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83FE090A21B93AD935074376 /* Pods-Marti_ProjeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +712,7 @@
 		};
 		B699E61A2488076600FF0114 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11442F6687B4B1EC872F3750 /* Pods-Marti_Proje-Marti_ProjeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +733,7 @@
 		};
 		B699E61B2488076600FF0114 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D11C584ED2A0D05D3B92588 /* Pods-Marti_Proje-Marti_ProjeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
